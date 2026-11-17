@@ -5,28 +5,28 @@
 class Mirafleet < Formula
   desc "Claude Code orchestrates fleets of servers through a central server"
   homepage "https://github.com/mirastacklabs-ai/mirafleet"
-  version "0.6.1"
+  version "0.6.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/mirastacklabs-ai/mirafleet/releases/download/v0.6.1/mirafleet_0.6.1_darwin_arm64.tar.gz"
-      sha256 "e7f5713f7f3875664818d5a55752fcd9081c741dfb574f07d543954a9d8af103"
+      url "https://github.com/mirastacklabs-ai/mirafleet/releases/download/v0.6.2/mirafleet_0.6.2_darwin_arm64.tar.gz"
+      sha256 "216b79bfdfeabc7cae1b4c3aa8739c50a7c4e41aa7d94e21916d3f72d1b5812c"
     end
     on_intel do
-      url "https://github.com/mirastacklabs-ai/mirafleet/releases/download/v0.6.1/mirafleet_0.6.1_darwin_amd64.tar.gz"
-      sha256 "37c410bef7569791bad0fc081742c8dfe1d1ea4bdba9468002bc5b3f4954f870"
+      url "https://github.com/mirastacklabs-ai/mirafleet/releases/download/v0.6.2/mirafleet_0.6.2_darwin_amd64.tar.gz"
+      sha256 "ae9dacd44c9cbf9d5c254b6dd1affb35b1af0830e8f289b9200ceaa0581f0457"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mirastacklabs-ai/mirafleet/releases/download/v0.6.1/mirafleet_0.6.1_linux_arm64.tar.gz"
-      sha256 "4f360c3662154685d5a013064cb5990b98e560c5fc5cd218c8abdd93d470550f"
+      url "https://github.com/mirastacklabs-ai/mirafleet/releases/download/v0.6.2/mirafleet_0.6.2_linux_arm64.tar.gz"
+      sha256 "0d54a4285d50fa2228a3a4c00472e2198e9803788930ddd342291ad14297daca"
     end
     on_intel do
-      url "https://github.com/mirastacklabs-ai/mirafleet/releases/download/v0.6.1/mirafleet_0.6.1_linux_amd64.tar.gz"
-      sha256 "1f2c77ff955c2d1291fc4b5beb5adf9e0e77db27aba5e66f111d0930783427c2"
+      url "https://github.com/mirastacklabs-ai/mirafleet/releases/download/v0.6.2/mirafleet_0.6.2_linux_amd64.tar.gz"
+      sha256 "ed87bc63de01bbed4eb928ece0c91781607cbd97e575904c3031acce3ee55d8a"
     end
   end
 
